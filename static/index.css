@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    
+
+}
+header{
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color:rgb(228, 214, 21);
+    color: white;
+    font: bolder 25px ;
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    height: 70px;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.veiw-map{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(212, 219, 224);
+}
+.par{
+    margin-top: 15px;
+    
+}
+.main-form{
+    border: solid black 1px ;
+    border-radius:5px ;
+    padding: 40px;
+    width: 510px;
+    height: auto;
+    position: relative;
+    padding-bottom: 100px;
+   
+
+}
+.main-form::placeholder{
+    font: 700 15px;
+    color: rgb(75, 74, 74);
+
+}
+.main-form input,button{
+    border-radius: 3px;
+    border: solid 1px;
+}
+
+.city_name{
+    width:100% ;
+}
+input{
+    margin-top: 17px;
+    outline: none;
+    height: 25px;
+    padding: 7px;
+    
+}
+.alert{
+    font-size: 12px;
+    color: #c41b1b;
+    margin-top: 7px;
+}
+.end{
+    margin-top: 25px;
+}
+.check{
+    margin: 0;
+    margin-right: 7px;
+    margin-left: 11px;
+    height: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.CityP{
+    font-weight: bold;
+
+}
+.distance{
+    margin: 0;
+    margin: 13px;
+}
+/* ==============================Botton============================================= */
+
+.submit{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    padding: 7px ;
+    
+    line-height: 1;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid rgb(228, 214, 21);
+    background: #fff;
+    color: rgb(228, 214, 21);
+    border-radius: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s;
+}
+.submit:hover{
+    background: rgb(228, 214, 21);
+  color: #fff;
+}
+.addmap{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 20px;
+    padding: 7px ;
+    
+    line-height: 1;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 3px solid rgb(228, 62, 21);
+    background: #fff;
+    color: rgb(228, 62, 21);
+    border-radius: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .35s;
+    margin-left: 20px;
+}
+.addmap:hover{
+    background: rgb(228, 62, 21);
+  color: #fff;
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color:rgb(228, 214, 21);
+    color: white;
+    font: bolder 25px ;
+    display: flex;
+    align-items: center;
+    padding-left: 2em;
+    height: 70px;
+    margin-top: 40px;
+}
+
+
+
